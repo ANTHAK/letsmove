@@ -5,12 +5,10 @@
   "author": "Calvin <siphonelee@gmail.com>",
   "license": "MIT",
   "private": false,
-
   "scripts": {
-    "start": "ts-node main.ts",
-    "build": "tsc"
+    "start": "node init && ts-node main.ts",
+    "build": "node init && tsc"
   },
-
   "dependencies": {
     "navi-sdk": "^1.1.21"
   }
